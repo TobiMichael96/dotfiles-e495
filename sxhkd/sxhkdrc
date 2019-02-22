@@ -1,0 +1,128 @@
+#
+# wm independent hotkeys
+#
+
+# terminal emulator
+super + t
+	tilix
+
+# program launcher
+super + Return
+	rofi -modi drun -show drun -display-drun 'Programs: '
+
+# workspace switcher
+super + Tab
+	rofi -modi window -show window -display-window 'Workspace: '
+
+# make sxhkd reload its configuration files:
+super + Escape
+	pkill -USR1 -x sxhkd
+
+# show shutdown prompt
+super + p
+	~/.config/scripts/power_menu.sh
+
+#
+# bspwm hotkeys
+#
+
+# reload themes
+super + shift + r
+  wal -i ~/.config/background
+
+# close
+super + shift + q
+	bspc node -c
+
+# alternate between the tiled and monocle layout
+super + m
+	bspc desktop -l next
+
+# set window fullscreen
+super + {f,g}
+	bspc node -t {fullscreen,tiled}
+
+# set window fullscreen
+super + {space, shift + space}
+	bspc node -t {floating,tiled}
+
+# focus or send to the given desktop
+super + {_,shift + } {1-9,0}
+	bspc {desktop -f,node -d} {1-9,10}
+
+# focus other node
+super + {Left,Right}
+	bspc node --focus {prev,next}.local
+
+# go to next desktop
+super + {Up,Down}
+	bspc desktop -f {next,prev}.local
+
+#
+# preselect
+#
+
+# preselect the direction
+super + shift + {Left,Down,Up,Right}
+	bspc node -p {west,south,north,east}
+
+# preselect the ratio
+super + shift + {1-9}
+	bspc node -o 0.{1-9}
+
+# cancel the preselection for the focused node
+super + shift + Escape
+	bspc node -p cancel
+
+#
+# move/resize
+#
+
+# expand a window by moving one of its side outward
+super + alt + {h,j,k,l}
+	bspc node -z {left -20 0,bottom 0 20,top 0 -20,right 20 0}
+
+# contract a window by moving one of its side inward
+super + alt + shift + {h,j,k,l}
+	bspc node -z {right -20 0,top 0 20,bottom 0 -20,left 20 0}
+
+
+# check for other monitors
+super + shift + p
+	~/.screenlayout/checkscreens.sh
+
+#
+# Volume controls
+#
+XF86Audio{Raise,Lower}Volume
+	pactl set-sink-volume alsa_output.pci-0000_00_1b.0.analog-surround-40 {+,-}10% && ~/.config/scripts/volume.sh n
+
+XF86AudioMute
+	pactl set-sink-mute alsa_output.pci-0000_00_1b.0.analog-surround-40 toggle && ~/.config/scripts/volume.sh n
+
+# Media player controls
+XF86Audio{Play,Pause,Next,Prev}
+	playerctl {play-pause,pause,next,previous}
+
+# Backlight controls
+XF86MonBrightness{Up,Down}
+	xbacklight {-inc,-dec} 10 && ~/.config/scripts/brightness.sh n
+
+# Lock screen
+XF86ScreenSaver
+	~/.config/scripts/physlock.sh
+
+# Sleep
+#@XF86Sleep
+#	~/.config/scripts/sleep.sh
+
+# Screenshot
+@Print
+	sh ~/.config/scripts/screenshot-tool.sh s
+
+super + @Print
+	sh ~/.config/scripts/screenshot-tool.sh f
+
+# Show information
+super + i
+	~/.config/scripts/polybar_toggle.sh t
