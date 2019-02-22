@@ -18,8 +18,11 @@ bspc rule -a keepassxc desktop=^8
 bspc rule -a Steam desktop=^6
 bspc rule -a LibreOffice* state=tiled
 
+sh ~/.screenlayout/withoutTV.sh
+
 wal -i ~/dotfiles/background
-sh ~/.screenlayout/checkscreens.sh 1
+sh ~/.config/polybar/launch.sh &
+sh ~/.config/scripts/battery.sh &
 gebaard -b
 dunst &
 setxkbmap de
@@ -31,6 +34,12 @@ pactl set-sink-mute alsa_output.pci-0000_00_1b.0.analog-stereo 1
 wmname LG3D
 #compton --config ~/.config/compton/compton.conf &
 
+# start other programms
+keepassxc &
+thunderbird &
+
+# lock the station
+sh ~/.config/scripts/physlock.sh &
 
 # source the colors.
 . "${HOME}/.cache/wal/colors.sh"
