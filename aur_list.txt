@@ -1,0 +1,17 @@
+acestream-engine
+acestream-launcher
+android-sdk
+android-studio
+aurman
+breeze-default-cursor-theme
+gebaar
+intellij-idea-ultimate-edition
+phpstorm
+polybar-git
+pycharm-professional
+spotify
+steam-fonts
+trizen
+ttf-font-awesome-4
+ttf-ms-fonts
+unified-remote-server
