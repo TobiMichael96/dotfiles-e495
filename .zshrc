@@ -1,5 +1,5 @@
 #
-# ~/.bashrc
+# ~/.zshrc
 #
 
 if ! pgrep -u "$USER" ssh-agent > /dev/null; then

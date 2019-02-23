@@ -1,8 +1,8 @@
 #
-# ~/.bash_profile
+# ~/.zprofile
 #
 
-[[ -f ~/.bashrc ]] && . ~/.bashrc
+[[ -f ~/.zshrc ]] && . ~/.zshrc
 
 if [ -z "$DISPLAY" ] && [ "$(fgconsole)" -eq 1 ]; then
   exec startx
