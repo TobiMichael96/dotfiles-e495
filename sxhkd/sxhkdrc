@@ -20,7 +20,7 @@ super + Escape
 
 # show shutdown prompt
 super + p
-	~/dotiles/scripts/power_menu.sh
+	~/dotfiles/scripts/power_menu.sh
 
 #
 # bspwm hotkeys
