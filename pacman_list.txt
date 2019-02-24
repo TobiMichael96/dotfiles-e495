@@ -156,7 +156,6 @@ teamspeak3
 terminus-font
 texinfo
 thunderbird
-tilix
 tlp
 tp_smapi
 ttf-croscore
