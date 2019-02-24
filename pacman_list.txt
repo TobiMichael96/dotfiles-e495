@@ -160,6 +160,7 @@ tlp
 tp_smapi
 ttf-croscore
 ttf-font-awesome
+ttf-roboto
 unrar
 unzip
 usb_modeswitch

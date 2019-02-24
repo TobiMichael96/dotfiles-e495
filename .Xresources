@@ -1,12 +1,15 @@
-xterm.termName: xterm-256color
-xterm.vt100.saveLines: 4096
+XTerm.termName: xterm-256color
+XTerm.vt100.saveLines: 4096
+XTerm.vt100.locale: true
+XTerm*utf8: 1
 
 xterm.transparent: true
-xterm*faceName: Roboto Mono
-xterm*faceSize: 8
+
+XTerm*font: -*-terminus-medium-*-*-*-18-*-*-*-*-*-iso10646-1
+
 xterm*Background: #1f1f1f
 xterm*Foreground: #FFFFFF
 
-Xft.dpi: 120
+Xft.dpi: 118
 
 Xcursor.size: 18
