@@ -1,5 +1,6 @@
 acpi_call
 acpid
+adobe-source-code-pro-fonts
 alsa-utils
 android-tools
 android-udev
@@ -160,6 +161,7 @@ tlp
 tp_smapi
 ttf-croscore
 ttf-font-awesome
+ttf-hack
 ttf-roboto
 unrar
 unzip

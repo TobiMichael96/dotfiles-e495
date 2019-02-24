@@ -4,7 +4,7 @@
 
 # terminal emulator
 super + t
-	tilix
+	xterm
 
 # program launcher
 super + Return

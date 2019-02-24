@@ -1,5 +1,5 @@
 #
-# ~/.zshrc
+# ~/.bashrc
 #
 
 if ! pgrep -u "$USER" ssh-agent > /dev/null; then
@@ -28,4 +28,7 @@ alias homenet='sh ~/dotfiles/scripts/wireguard.sh'
 alias stickm='sh ~/dotfiles/scripts/mount-stick.sh'
 alias stickum='sh ~/dotfiles/scripts/umount-stick.sh'
 
+PS1='[\u@\h \W]\$ '
+
 (cat ~/.cache/wal/sequences &)
+
