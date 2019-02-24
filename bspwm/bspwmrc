@@ -20,7 +20,6 @@ bspc rule -a LibreOffice* state=tiled
 
 sh ~/.screenlayout/withoutTV.sh
 
-wal -i ~/dotfiles/background
 sh ~/.config/polybar/launch.sh &
 sh ~/.config/scripts/battery.sh &
 gebaard -b
@@ -33,7 +32,7 @@ pactl set-sink-volume alsa_output.pci-0000_00_1b.0.analog-stereo 50%
 pactl set-sink-mute alsa_output.pci-0000_00_1b.0.analog-stereo 1
 wmname LG3D
 compton --config ~/.config/compton/compton.conf &
-
+wal -i ~/dotfiles/background
 # start other programms
 keepassxc &
 thunderbird &
