@@ -21,7 +21,7 @@ bspc rule -a LibreOffice* state=tiled
 sh ~/.screenlayout/withoutTV.sh
 
 sh ~/.config/polybar/launch.sh &
-sh ~/.config/scripts/battery.sh &
+sh ~/dotfiles/scripts/battery.sh &
 gebaard -b
 dunst &
 setxkbmap de
@@ -38,7 +38,7 @@ keepassxc &
 thunderbird &
 
 # lock the station
-sh ~/.config/scripts/physlock.sh &
+sh ~/dotfiles/scripts/physlock.sh &
 
 # source the colors.
 . "${HOME}/.cache/wal/colors.sh"
