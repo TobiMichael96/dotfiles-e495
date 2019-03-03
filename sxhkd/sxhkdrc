@@ -58,6 +58,15 @@ super + {Left,Right}
 super + {Up,Down}
 	bspc desktop -f {next,prev}.local
 
+# switch node with the biggest one 
+super + b  
+ bspc node -s biggest.local 
+
+# toggle sticky node 
+super + s  
+ bspc node -g sticky
+
+
 #
 # preselect
 #
