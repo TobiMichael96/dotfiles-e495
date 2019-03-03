@@ -181,6 +181,7 @@ wmname
 wol
 wpa_actiond
 xclip
+xdo
 xdotool
 xf86-video-intel
 xf86-video-vesa
