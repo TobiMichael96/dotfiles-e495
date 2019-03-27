@@ -172,6 +172,7 @@ vi
 virtualbox
 virtualbox-guest-iso
 vlc
+vpnc
 wget
 which
 whois
