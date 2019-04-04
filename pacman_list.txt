@@ -13,6 +13,7 @@ bash-completion
 bind-tools
 binutils
 bison
+bluez-hid2hci
 bluez-utils
 breeze-gtk
 bspwm
@@ -180,7 +181,6 @@ wireguard-tools
 wireless_tools
 wmname
 wol
-wpa_actiond
 xclip
 xdo
 xdotool

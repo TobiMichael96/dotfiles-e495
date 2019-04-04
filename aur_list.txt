@@ -2,7 +2,6 @@ acestream-engine
 acestream-launcher
 android-sdk
 android-studio
-aurman
 breeze-default-cursor-theme
 gebaar
 intellij-idea-ultimate-edition
@@ -15,3 +14,4 @@ trizen
 ttf-font-awesome-4
 ttf-ms-fonts
 unified-remote-server
+wpa_actiond

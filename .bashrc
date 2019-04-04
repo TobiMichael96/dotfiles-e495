@@ -22,7 +22,7 @@ alias pacman-clean='sudo pacman -Rns $(pacman -Qtdq)'
 alias ace='acestream-launcher -p vlc'
 alias dotfiles='sh ~/dotfiles/dotfiles.sh'
 
-alias homeserver='ssh 192.168.2.4'
+alias homeserver='mosh 192.168.2.4'
 alias homenet='sh ~/dotfiles/scripts/wireguard.sh'
 
 alias stickm='sh ~/dotfiles/scripts/mount-stick.sh'
