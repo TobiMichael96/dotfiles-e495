@@ -181,6 +181,7 @@ wireguard-tools
 wireless_tools
 wmname
 wol
+wpa_supplicant
 xclip
 xdo
 xdotool

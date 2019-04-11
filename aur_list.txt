@@ -5,6 +5,7 @@ android-studio
 breeze-default-cursor-theme
 gebaar
 intellij-idea-ultimate-edition
+masterpdfeditor-free
 phpstorm
 polybar-git
 pycharm-professional
@@ -14,4 +15,4 @@ trizen
 ttf-font-awesome-4
 ttf-ms-fonts
 unified-remote-server
-wpa_actiond
+visual-paradigm-community
