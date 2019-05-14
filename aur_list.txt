@@ -8,7 +8,7 @@ intellij-idea-ultimate-edition
 masterpdfeditor-free
 phpstorm
 polybar-git
-pycharm-professional
+pyload-git
 spotify
 steam-fonts
 trizen
