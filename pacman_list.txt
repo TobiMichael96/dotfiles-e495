@@ -37,6 +37,7 @@ dhcpcd
 dialog
 diffutils
 dmraid
+docker
 dosfstools
 dunst
 e2fsprogs
