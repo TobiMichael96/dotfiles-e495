@@ -32,6 +32,7 @@ cryptsetup
 cups
 cups-pk-helper
 davfs2
+dbeaver
 device-mapper
 dhcpcd
 dialog
@@ -120,7 +121,6 @@ pavucontrol
 pciutils
 pcmanfm
 perl
-physlock
 pkgconf
 pkgfile
 powerline
@@ -146,6 +146,7 @@ scrot
 sed
 shadow
 sharutils
+slock
 splix
 steam
 sudo
