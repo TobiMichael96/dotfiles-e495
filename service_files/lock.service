@@ -8,7 +8,7 @@ Before=sleep.target
 User=tobias
 Type=forking
 Environment=DISPLAY=:0
-ExecStart=/bin/bash /home/tobias/.config/scripts/physlock.sh
+ExecStart=/bin/bash /home/tobias/.config/scripts/lock.sh
 
 [Install]
 WantedBy=sleep.target
