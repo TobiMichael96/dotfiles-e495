@@ -2,6 +2,8 @@
 # ~/.bashrc
 #
 
+cd ~/
+
 if ! pgrep -u "$USER" ssh-agent > /dev/null; then
 	ssh-agent > ~/.ssh-agent-thing
 fi
