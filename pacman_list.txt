@@ -5,6 +5,7 @@ alsa-utils
 android-tools
 android-udev
 arandr
+atom
 autoconf
 automake
 b43-fwcutter

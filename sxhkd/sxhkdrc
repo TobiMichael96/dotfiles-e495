@@ -66,6 +66,11 @@ super + b
 super + s  
  bspc node -g sticky
 
+# rotate desktop
+super + r
+ bspc node @/ -R 90
+
+
 
 #
 # preselect

@@ -27,8 +27,8 @@ alias dotfiles='sh ~/dotfiles/dotfiles.sh'
 alias homeserver='mosh 192.168.2.4'
 alias homenet='sh ~/dotfiles/scripts/wireguard.sh'
 
-alias stickm='sh ~/dotfiles/scripts/mount-stick.sh'
-alias stickum='sh ~/dotfiles/scripts/umount-stick.sh'
+alias stickm='sh ~/dotfiles/scripts/stickm.sh'
+alias stickum='sh ~/dotfiles/scripts/stickum.sh'
 
 PS1='[\u@\h \W]\$ '
 
