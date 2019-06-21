@@ -124,6 +124,7 @@ pcmanfm
 perl
 pkgconf
 pkgfile
+playerctl
 powerline
 powerline-fonts
 procps-ng

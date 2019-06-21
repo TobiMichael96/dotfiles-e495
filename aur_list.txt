@@ -7,7 +7,6 @@ gebaar
 intellij-idea-ultimate-edition
 masterpdfeditor-free
 minecraft-launcher
-phpstorm
 polybar-git
 pyload-git
 spotify

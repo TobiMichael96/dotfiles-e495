@@ -1,4 +1,4 @@
-;=====================================================
+q;=====================================================
 ;
 ;   To learn more about how to configure Polybar
 ;   go to https://github.com/jaagr/polybar
@@ -49,8 +49,8 @@ enable-ipc = true
 font-0 = "Roboto Bold:pixelsize=12;3"
 font-1 = "FontAwesome:pixelsize=13;3"
 modules-left = bspwm wifi tv
-modules-center = date
-modules-right = stick music battery backlight pulseaudio time
+modules-center = time date
+modules-right = music battery backlight pulseaudio
 ;override-redirect = true
 wm-restack = bspwm
 scroll-up = bspwm-desknext
@@ -200,8 +200,8 @@ label = "%date%"
 type = custom/script
 format-prefix = "  "
 format-prefix-foreground = ${colors.foreground-alt}
-exec = playerctl metadata xesam:title; if [[ "$(playerctl status)" = "Playing" ]]; then echo -n "    "; else echo -n "    "; fi; playerctl metadata xesam:artist;
-exec-if = [[ "$(playerctl status)" = "Playing" || "$(playerctl status)" = "Paused" ]] && echo "0"
+exec = playerctl metadata xesam:title
+exec-if = [[ "$(playerctl status)" = "Playing" ]] && echo "0"
 
 click-left = playerctl next
 click-right = playerctl play-pause next
@@ -216,4 +216,4 @@ exec = if [[ ! -z $(xrandr -q | grep "HDMI1 connected" | cut -d ' ' -f3 | sed 's
 [module/stick]
 type = custom/script
 format-foreground = ${colors.foreground-alt}
-exec = if [[ ! -z $(df -aTh | grep "mapper/Stick") ]]; then echo -n ""; else echo -n " "; fi;
+exec = if [[ ! -z $(df -aTh | grep "Nextcloud") ]]; then echo -n ""; else echo -n " "; fi;
