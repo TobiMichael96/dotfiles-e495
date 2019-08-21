@@ -4,7 +4,11 @@ android-sdk
 android-studio
 breeze-default-cursor-theme
 gebaar
+google-chrome
 intellij-idea-ultimate-edition
+jdownloader2
+kernel-modules-hook
+losslesscut
 masterpdfeditor-free
 minecraft-launcher
 polybar-git

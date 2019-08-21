@@ -14,6 +14,11 @@ if [[ "$SSH_AGENT_PID" == "" ]]; then
 	ssh-add ~/.ssh/github &>/dev/null
 fi
 
+# set PATH so it includes user's private bin if it exists
+if [ -d "$HOME/.local/bin" ] ; then
+    PATH="$HOME/.local/bin:$PATH"
+fi
+
 alias px='ps ax | grep '
 alias cdc='cd $HOME/.config'
 alias screenshot='sh ~/dotfiles/scripts/screenshot-tool.sh s'

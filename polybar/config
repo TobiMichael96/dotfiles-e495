@@ -49,8 +49,8 @@ enable-ipc = true
 font-0 = "Roboto Bold:pixelsize=12;3"
 font-1 = "FontAwesome:pixelsize=13;3"
 modules-left = bspwm wifi tv
-modules-center = time date
-modules-right = music battery backlight pulseaudio
+modules-center = date
+modules-right = music battery backlight pulseaudio time
 ;override-redirect = true
 wm-restack = bspwm
 scroll-up = bspwm-desknext
@@ -117,7 +117,7 @@ enable-scroll = false
 type = internal/battery
 
 ; This is useful in case the battery never reports 100% charge
-full-at = 95
+full-at = 94
 
 ; Use the following command to list batteries and adapters:
 ; $ ls -1 /sys/class/power_supply/
@@ -200,7 +200,7 @@ label = "%date%"
 type = custom/script
 format-prefix = "  "
 format-prefix-foreground = ${colors.foreground-alt}
-exec = playerctl metadata xesam:title
+exec = playerctl metadata xesam:title | cut -c-25
 exec-if = [[ "$(playerctl status)" = "Playing" ]] && echo "0"
 
 click-left = playerctl next
