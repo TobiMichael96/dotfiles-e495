@@ -33,7 +33,6 @@ cryptsetup
 cups
 cups-pk-helper
 davfs2
-dbeaver
 device-mapper
 dhcpcd
 dialog

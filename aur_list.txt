@@ -1,7 +1,5 @@
 acestream-engine
 acestream-launcher
-android-sdk
-android-studio
 breeze-default-cursor-theme
 gebaar
 google-chrome
