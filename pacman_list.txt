@@ -101,6 +101,7 @@ mdadm
 mlocate
 modemmanager
 mosh
+mumble
 nano
 neofetch
 net-tools
@@ -157,6 +158,7 @@ systemd
 systemd-sysvcompat
 tar
 teamspeak3
+teeworlds
 terminus-font
 texinfo
 thunderbird
@@ -236,6 +238,7 @@ xorg-xwininfo
 xorg-xwud
 xterm
 xz
+zerotier-one
 zip
 zsh
 zsh-completions
