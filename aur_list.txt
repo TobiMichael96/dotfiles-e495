@@ -10,7 +10,6 @@ losslesscut
 masterpdfeditor-free
 minecraft-launcher
 polybar-git
-pyload-git
 spotify
 steam-fonts
 trizen
