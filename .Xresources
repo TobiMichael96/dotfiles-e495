@@ -5,12 +5,10 @@ XTerm*utf8: 1
 
 xterm.transparent: true
 
-XTerm.vt100.faceName:Roboto Mono:size=9
+XTerm.vt100.faceName:Roboto Mono:size=10
 XTerm.vt100.font: 7x14
 
 xterm*Background: #1f1f1f
 xterm*Foreground: #FFFFFF
-
-Xft.dpi: 118
 
 Xcursor.size: 18
