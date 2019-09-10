@@ -17,4 +17,3 @@ trizen
 ttf-font-awesome-4
 ttf-ms-fonts
 unified-remote-server
-visual-paradigm-community
