@@ -9,9 +9,10 @@ q;=====================================================
 
 [colors]
 background = ${xrdb:color0:#222}
+#background = #1A2F343F
 background-alt = ${xrdb:color3:#222}
 foreground = ${xrdb:color7:#222}
-foreground-alt = ${xrdb:color2:#555}
+foreground-alt = ${xrdb:color3:#222}
 highlight = ${xrdb:color2:#f00}
 urgent = #f00
 

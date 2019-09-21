@@ -2,7 +2,6 @@ acestream-engine
 acestream-launcher
 breeze-default-cursor-theme
 gebaar
-google-chrome
 intellij-idea-ultimate-edition
 jdownloader2
 kernel-modules-hook
@@ -12,7 +11,8 @@ minecraft-launcher
 polybar-git
 spotify
 steam-fonts
-trizen
 ttf-font-awesome-4
 ttf-ms-fonts
 unified-remote-server
+webstorm
+yay-bin

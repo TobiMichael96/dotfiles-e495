@@ -8,7 +8,7 @@ xterm.transparent: true
 XTerm.vt100.faceName:Roboto Mono:size=10
 XTerm.vt100.font: 7x14
 
-xterm*Background: #1f1f1f
+xterm*Background: #2F343F
 xterm*Foreground: #FFFFFF
 
 Xcursor.size: 18

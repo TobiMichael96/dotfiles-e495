@@ -175,6 +175,7 @@ usbutils
 util-linux
 uudeview
 vi
+vim
 virtualbox
 virtualbox-guest-iso
 vlc
