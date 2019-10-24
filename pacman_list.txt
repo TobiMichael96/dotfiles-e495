@@ -9,6 +9,7 @@ atom
 autoconf
 automake
 b43-fwcutter
+base
 bash
 bash-completion
 bind-tools
@@ -25,6 +26,7 @@ cabextract
 chromium
 cifs-utils
 cmake
+code
 compton
 coreutils
 crda
@@ -44,6 +46,7 @@ dunst
 e2fsprogs
 eclipse-java
 efibootmgr
+ethtool
 exfat-utils
 f2fs-tools
 fakeroot
@@ -55,6 +58,7 @@ firefox
 flex
 foomatic-db
 foomatic-db-ppds
+freerdp
 gawk
 gcc
 gcc-libs
@@ -77,8 +81,7 @@ iproute2
 iputils
 ipw2100-fw
 ipw2200-fw
-java-openjfx
-jdk8-openjdk
+jdk-openjdk
 jfsutils
 jq
 keepassxc
@@ -122,6 +125,11 @@ pavucontrol
 pciutils
 pcmanfm
 perl
+php
+php-cgi
+php-dblib
+php-pgsql
+php-sqlite
 pkgconf
 pkgfile
 playerctl
@@ -140,8 +148,10 @@ python-virtualenv
 qpdfview
 reflector
 reiserfsprogs
+remmina
 rofi
 rsync
+rust
 s-nail
 screenfetch
 scrot
@@ -161,6 +171,18 @@ teamspeak3
 teeworlds
 terminus-font
 texinfo
+texlive-bibtexextra
+texlive-core
+texlive-fontsextra
+texlive-formatsextra
+texlive-games
+texlive-humanities
+texlive-latexextra
+texlive-music
+texlive-pictures
+texlive-pstricks
+texlive-publishers
+texlive-science
 thunderbird
 tlp
 tp_smapi

@@ -7,8 +7,9 @@ jdownloader2
 kernel-modules-hook
 losslesscut
 masterpdfeditor-free
-minecraft-launcher
+phpstorm
 polybar-git
+pycharm-professional
 spotify
 steam-fonts
 ttf-font-awesome-4
