@@ -186,6 +186,7 @@ texlive-science
 thunderbird
 tlp
 tp_smapi
+transmission-gtk
 ttf-croscore
 ttf-font-awesome
 ttf-hack
