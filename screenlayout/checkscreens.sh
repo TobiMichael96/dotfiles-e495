@@ -9,8 +9,8 @@ if [ ! -z "$connected" ]; then
 else
     	sh ~/.screenlayout/withoutTV.sh
     	sleep 1
-    	bspc monitor LVDS1 -d 1 2 3 4 5 6 7 8
-    	bspc monitor HDMI1 -d 9 10
+    	bspc monitor LVDS1 -d 1 2 3 4 5 6 7 8 9 10
+#    	bspc monitor HDMI1 -d 9 10
 	notify-send "Screen" "Second screen removed..."
 fi
 
