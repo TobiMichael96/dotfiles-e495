@@ -211,6 +211,7 @@ wireless_tools
 wmname
 wol
 wpa_supplicant
+xarchiver
 xclip
 xdo
 xdotool

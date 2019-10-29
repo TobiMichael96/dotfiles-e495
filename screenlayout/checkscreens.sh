@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
-connected=$(xrandr -q | grep " connected" | cut -d ' ' -f1 | sed -n 2p)
-if [ ! -z "$connected" ]; then
+connected=$(cat /sys/class/drm/card0/card0-HDMI-A-1/status)
+if [ "$connected" == "connected" ]; then
     	sh ~/.screenlayout/withTV.sh
     	sleep 1
     	bspc monitor LVDS1 -d 1 2 3 4 5 6 7 8
