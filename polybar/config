@@ -221,7 +221,7 @@ format = <label>
 [module/tv]
 type = custom/script
 format-foreground = ${colors.foreground}
-exec = if [[ ! -z $(xrandr -q | grep "HDMI1 connected" | cut -d ' ' -f3 | sed 's/[^0-9]*//g') ]]; then echo -n ""; fi;
+exec = if [[ "connected" == $(cat /sys/class/drm/card0/card0-HDMI-A-1/status) ]]; then echo -n ""; fi;
 
 
 [module/stick]

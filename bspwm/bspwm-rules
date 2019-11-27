@@ -15,7 +15,7 @@ case $class in
 
  (Thunderbird) echo desktop=7;;
  (Spotify) echo desktop=5;;
- (keepassxc) echo desktop=8;;
+ (KeePassXC) echo desktop=8;;
  (TeamSpeak*) echo desktop=5;;
  ([sS]team*) echo desktop=6;;
 

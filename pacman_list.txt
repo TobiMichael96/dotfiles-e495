@@ -5,7 +5,6 @@ alsa-utils
 android-tools
 android-udev
 arandr
-atom
 autoconf
 automake
 b43-fwcutter
@@ -26,8 +25,6 @@ cabextract
 chromium
 cifs-utils
 cmake
-code
-compton
 coreutils
 crda
 cryfs
@@ -53,6 +50,7 @@ fakeroot
 feh
 file
 filesystem
+filezilla
 findutils
 firefox
 flex
@@ -130,6 +128,7 @@ php-cgi
 php-dblib
 php-pgsql
 php-sqlite
+picom
 pkgconf
 pkgfile
 playerctl
@@ -140,6 +139,7 @@ psmisc
 pulseaudio
 pulseaudio-alsa
 pulseaudio-bluetooth
+pv
 python-gobject
 python-pip
 python-pyqt5
