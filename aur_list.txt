@@ -1,5 +1,3 @@
-acestream-engine
-acestream-launcher
 breeze-default-cursor-theme
 gebaar
 intellij-idea-ultimate-edition
