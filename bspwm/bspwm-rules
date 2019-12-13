@@ -13,9 +13,8 @@ case $class in
  (Gitk) echo state=floating\ layer=normal;;
  (XTerm:xterm_keys_help) echo state=floating\ layer=normal;;
 
- (Thunderbird) echo desktop=7;;
- (Spotify) echo desktop=5;;
- (KeePassXC) echo desktop=8;;
+ (Thunderbird) echo desktop=8;;
+ (Spotify) echo desktop=7;;
  (TeamSpeak*) echo desktop=5;;
  ([sS]team*) echo desktop=6;;
 
@@ -24,6 +23,6 @@ case $class in
  (stj1) echo state=floating\ layer=above\ sticky=on;;
  ('')
   case $(ps -p "$(xdo pid $id)" -o comm= 2>/dev/null) in
-   (spotify) echo desktop=5;;
+   (spotify) echo desktop=7;;
   esac;;
 esac;

@@ -32,7 +32,6 @@ wmname LG3D
 compton --config ~/.config/compton/compton.conf &
 wal -i ~/dotfiles/background
 # start other programms
-keepassxc &
 thunderbird &
 
 # lock the station
