@@ -64,3 +64,11 @@ e() {
 
 # create folder and cd into
 mkd() { mkdir -p "$@" && cd "$@"; }
+
+
+mullvad() {
+old_service=$(systemctl | grep wg-quick@mullvad | awk '{print $1}')
+sudo systemctl stop $old_service
+new_service=wg-quick@mullvad-$1.service
+sudo systemctl start $new_service
+}

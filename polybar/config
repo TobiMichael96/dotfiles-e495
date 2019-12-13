@@ -50,7 +50,7 @@ module-margin-right = 3
 enable-ipc = true
 font-0 = "Roboto Bold:pixelsize=12;3"
 font-1 = "FontAwesome:pixelsize=13;3"
-modules-left = bspwm wifi tv
+modules-left = bspwm wifi vpn tv
 modules-center = date
 modules-right = music battery backlight pulseaudio time
 ;override-redirect = true
@@ -214,7 +214,7 @@ exec-if = [[ "$(playerctl status)" = "Playing" ]] && echo "0"
 
 click-left = playerctl next
 click-right = playerctl play-pause next
-interval = 1
+interval = 5
 format = <label>
 
 
@@ -228,3 +228,10 @@ exec = if [[ "connected" == $(cat /sys/class/drm/card0/card0-HDMI-A-1/status) ]]
 type = custom/script
 format-foreground = ${colors.foreground}
 exec = if [[ ! -z $(df -aTh | grep "Nextcloud") ]]; then echo -n ""; else echo -n " "; fi;
+
+
+[module/vpn]
+type = custom/script
+format-foreground = ${colors.foreground}
+exec = output=$(curl --silent https://am.i.mullvad.net/connected | awk '{print $7}' | cut -f1 -d"-"); if [[ $output == *[0-9] ]]; then echo -n $output; else echo -n "none"; fi;
+interval = 10

@@ -8,6 +8,7 @@ masterpdfeditor-free
 phpstorm
 polybar-git
 pycharm-professional
+spicetify-cli
 spotify
 steam-fonts
 ttf-font-awesome-4

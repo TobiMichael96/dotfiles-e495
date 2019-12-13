@@ -123,11 +123,6 @@ pavucontrol
 pciutils
 pcmanfm
 perl
-php
-php-cgi
-php-dblib
-php-pgsql
-php-sqlite
 picom
 pkgconf
 pkgfile
@@ -159,6 +154,7 @@ sed
 shadow
 sharutils
 slock
+speedtest-cli
 splix
 steam
 sudo
