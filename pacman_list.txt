@@ -41,7 +41,6 @@ docker
 dosfstools
 dunst
 e2fsprogs
-eclipse-java
 efibootmgr
 ethtool
 exfat-utils
@@ -114,7 +113,6 @@ openresolv
 openssh
 openttd-opengfx
 openttd-opensfx
-openvpn
 os-prober
 pacman
 papirus-icon-theme
@@ -221,8 +219,6 @@ xorg-iceauth
 xorg-luit
 xorg-server
 xorg-server-common
-xorg-server-devel
-xorg-server-xdmx
 xorg-server-xephyr
 xorg-server-xnest
 xorg-server-xvfb

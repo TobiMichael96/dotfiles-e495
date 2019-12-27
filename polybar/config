@@ -234,4 +234,4 @@ exec = if [[ ! -z $(df -aTh | grep "Nextcloud") ]]; then echo -n ""; else ech
 type = custom/script
 format-foreground = ${colors.foreground}
 exec = output=$(curl --silent https://am.i.mullvad.net/connected | awk '{print $7}' | cut -f1 -d"-"); if [[ $output == *[0-9] ]]; then echo -n $output; else echo -n "none"; fi;
-interval = 10
+interval = 15
