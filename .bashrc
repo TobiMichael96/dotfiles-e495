@@ -32,6 +32,8 @@ alias dotfiles='sh ~/dotfiles/dotfiles.sh'
 alias homeserver='mosh 192.168.2.4'
 alias homenet='sh ~/dotfiles/scripts/wireguard.sh'
 
+alias raspi='ssh 192.168.2.77'
+
 alias stickm='sh ~/dotfiles/scripts/stickm.sh'
 alias stickum='sh ~/dotfiles/scripts/stickum.sh'
 
