@@ -22,6 +22,7 @@ fi
 alias px='ps ax | grep '
 alias cdc='cd $HOME/.config'
 alias screenshot='sh ~/dotfiles/scripts/screenshot-tool.sh s'
+alias pic-upload='sh dotfiles/scripts/pic-uploader.sh'
 alias ls='ls --color=auto'
 alias httpd='hostname -i && python3 -m http.server 8001'
 alias note='sh ~/dotfiles/scripts/notes.sh'
