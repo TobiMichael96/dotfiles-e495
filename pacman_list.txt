@@ -73,7 +73,6 @@ hplip
 htop
 inetutils
 inkscape
-intel-ucode
 iproute2
 iputils
 ipw2100-fw
@@ -85,7 +84,6 @@ less
 lib32-mesa
 libreoffice-fresh
 libtool
-libva-intel-driver
 licenses
 linux
 linux-headers
@@ -208,7 +206,6 @@ xarchiver
 xclip
 xdo
 xdotool
-xf86-video-intel
 xf86-video-vesa
 xfsprogs
 xorg-docs
