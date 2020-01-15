@@ -1,4 +1,4 @@
-Laptop setup
+E495 setup
 ------------------
 * Notification `dunst`
 * Font `Roboto Mono`
