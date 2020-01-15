@@ -24,13 +24,10 @@ sh ~/.config/polybar/launch.sh &
 sh ~/dotfiles/scripts/battery.sh &
 gebaard -b
 dunst &
-setxkbmap de
-xsetroot -cursor_name left_ptr
-xrdb merge ~/.Xresources &
-xbacklight -set 30
 wmname LG3D
 compton --config ~/.config/compton/compton.conf &
 wal -i ~/dotfiles/background
+
 # start other programms
 thunderbird &
 
