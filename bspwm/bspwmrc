@@ -1,6 +1,6 @@
 #! /bin/sh
-bspc monitor LVDS1 -d 1 2 3 4 5 6 7 8
-bspc monitor HDMI1 -d 9 10
+bspc monitor eDP -d 1 2 3 4 5 6 7 8
+bspc monitor HDMI-A-0 -d 9 10
 
 bspc config border_width        0
 bspc config window_gap          1
@@ -25,7 +25,7 @@ sh ~/dotfiles/scripts/battery.sh &
 gebaard -b
 dunst &
 wmname LG3D
-compton --config ~/.config/compton/compton.conf &
+#picom --config ~/.config/picom/picom.conf &
 wal -i ~/dotfiles/background
 
 # start other programms

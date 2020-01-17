@@ -10,4 +10,4 @@ xbacklight -set 30
 sxhkd &
 exec bspwm
 
-xrandr --dpi 125.37
+xrandr --dpi 157.35

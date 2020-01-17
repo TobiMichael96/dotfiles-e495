@@ -109,10 +109,10 @@ super + shift + p
 # Volume controls
 #
 XF86Audio{Raise,Lower}Volume
-	pactl set-sink-volume alsa_output.pci-0000_00_1b.0.analog-stereo {+,-}10% && ~/dotfiles/scripts/volume.sh n
+	pactl set-sink-volume alsa_output.pci-0000_05_00.6.analog-stereo {+,-}10% && ~/dotfiles/scripts/volume.sh n
 
 XF86AudioMute
-	pactl set-sink-mute alsa_output.pci-0000_00_1b.0.analog-stereo toggle && ~/dotfiles/scripts/volume.sh n
+	pactl set-sink-mute alsa_output.pci-0000_05_00.6.analog-stereo toggle && ~/dotfiles/scripts/volume.sh n
 
 # Media player controls
 XF86Audio{Play,Pause,Next,Prev}
