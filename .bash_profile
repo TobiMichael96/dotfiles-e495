@@ -5,5 +5,5 @@
 [[ -f ~/.bashrc ]] && . ~/.bashrc
 
 if [ -z "$DISPLAY" ] && [ "$(fgconsole)" -eq 1 ]; then
-  exec startx
+  exec startx &> /dev/null
 fi

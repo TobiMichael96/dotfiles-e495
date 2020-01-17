@@ -1,7 +1,9 @@
+breeze-default-cursor-theme
 gebaar
 kernel-modules-hook
 polybar-git
 spotify
 steam-fonts
 ttf-font-awesome-4
+ttf-ms-fonts
 yay

@@ -107,7 +107,9 @@ type = custom/script
 format = <label>
 format-prefix = "   "
 format-prefix-foreground = ${colors.foreground}
-exec = echo $(($(cat /sys/class/backlight/amdgpu_bl0/brightness) * 100 / 250))
+#exec = br=$(($(cat /sys/class/backlight/amdgpu_bl0/brightness) * 100 / 255)); if [[ $br -gt 100 ]]; then br=100; fi; echo $br
+#exec = echo $(($(cat /sys/class/backlight/amdgpu_bl0/brightness) * 100 / 255))
+exec = echo $(printf "%.*f\n" 0 $(light))
 format-suffix = "%"
 
 

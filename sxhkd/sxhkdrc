@@ -120,7 +120,7 @@ XF86Audio{Play,Pause,Next,Prev}
 
 # Backlight controls
 XF86MonBrightness{Up,Down}
-	xbacklight {-inc,-dec} 10 && ~/dotfiles/scripts/brightness.sh n
+	light {-A,-U} 10 && ~/dotfiles/scripts/brightness.sh n && ~/dotfiles/scripts/brightness.sh n
 
 # Lock screen
 XF86ScreenSaver
