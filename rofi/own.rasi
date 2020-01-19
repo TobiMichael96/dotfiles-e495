@@ -3,7 +3,7 @@
 //----------------------
 
 configuration {
-font: 			"Roboto Mono 18";
+font: 			"Roboto Mono 24";
 show-match: 		true;
 separator-style: 	"solid";
 hide-scrollbar: 	true;

@@ -25,7 +25,7 @@ sh ~/dotfiles/scripts/battery.sh &
 gebaard -b
 dunst &
 wmname LG3D
-#picom --config ~/.config/picom/picom.conf &
+picom --config ~/.config/picom/picom.conf &
 wal -i ~/dotfiles/background
 
 # start other programms

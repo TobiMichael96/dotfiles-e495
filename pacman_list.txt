@@ -1,3 +1,5 @@
+acpi
+acpi_call
 amd-ucode
 arandr
 autoconf
@@ -10,6 +12,7 @@ bluez
 bluez-hid2hci
 bluez-utils
 bspwm
+chromium
 cifs-utils
 cups
 davfs2
@@ -17,6 +20,7 @@ dhcpcd
 docker
 dunst
 efibootmgr
+ethtool
 fakeroot
 feh
 firefox
@@ -40,9 +44,12 @@ make
 mosh
 nano
 neofetch
+nextcloud-client
+notepadqq
 ntfs-3g
 openresolv
 openssh
+papirus-icon-theme
 patch
 pavucontrol
 pcmanfm
@@ -53,8 +60,10 @@ pulseaudio
 pulseaudio-bluetooth
 python-pywal
 rofi
+screenfetch
 scrot
 slock
+smartmontools
 speedtest-cli
 steam
 sudo
@@ -64,7 +73,6 @@ teamspeak3
 texinfo
 thunderbird
 tlp
-tp_smapi
 ttf-roboto
 unrar
 vlc

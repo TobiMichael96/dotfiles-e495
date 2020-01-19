@@ -1,7 +1,9 @@
 breeze-default-cursor-theme
+chromium-widevine
 gebaar
 kernel-modules-hook
 polybar-git
+pycharm-professional
 spotify
 steam-fonts
 ttf-font-awesome-4

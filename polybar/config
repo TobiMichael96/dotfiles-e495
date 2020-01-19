@@ -48,11 +48,11 @@ padding-bottom = 2
 module-margin-left = 3
 module-margin-right = 3
 enable-ipc = true
-font-0 = "Roboto Bold:pixelsize=13;3"
-font-1 = "FontAwesome:pixelsize=13;3"
+font-0 = "Roboto Bold:pixelsize=14;3"
+font-1 = "FontAwesome:pixelsize=14;3"
 modules-left = bspwm wifi vpn tv
 modules-center = date
-modules-right = music battery backlight pulseaudio time
+modules-right = battery backlight pulseaudio time
 ;override-redirect = true
 wm-restack = bspwm
 scroll-up = bspwm-desknext
@@ -122,7 +122,7 @@ full-at = 97
 ; Use the following command to list batteries and adapters:
 ; $ ls -1 /sys/class/power_supply/
 battery = BAT0
-adapter = ADP1
+adapter = AC
 
 format-full = <label-full>
 format-full-prefix = "   "
@@ -142,12 +142,19 @@ label-discharging = %percentage%%
 poll-interval = 5
 
 
+[module/battery1]
+type = custom/script
+format-prefix = "   "
+format-prefix-foreground = ${colors.foreground}
+exec = acpi -b | awk '{print $4 " " $5}'
+tail = true
+
+
 [module/pulseaudio]
 type = internal/pulseaudio
 ; Sink to be used, if it exists (find using `pacmd list-sinks`, name field)
 ; If not, uses default sink
-; sink = alsa_output.pci-0000_00_1b.0.analog-stereo
-;sink = Analog
+sink = alsa_output.pci-0000_05_00.6.analog-stereo
 
 ; Use PA_VOLUME_UI_MAX (~153%) if true, or PA_VOLUME_NORM (100%) if false
 ; Default: true
