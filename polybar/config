@@ -42,7 +42,7 @@ line-color = #f00
 border-size = 0
 border-color = #00000000
 padding-left = 1
-padding-right = 2
+padding-right = 1
 padding-top = 2
 padding-bottom = 2
 module-margin-left = 3
@@ -52,7 +52,7 @@ font-0 = "Roboto Bold:pixelsize=14;3"
 font-1 = "FontAwesome:pixelsize=14;3"
 modules-left = bspwm wifi vpn tv
 modules-center = date
-modules-right = battery backlight pulseaudio time
+modules-right = battery2 backlight pulseaudio time
 ;override-redirect = true
 wm-restack = bspwm
 scroll-up = bspwm-desknext
@@ -117,7 +117,7 @@ format-suffix = "%"
 type = internal/battery
 
 ; This is useful in case the battery never reports 100% charge
-full-at = 97
+full-at = 96
 
 ; Use the following command to list batteries and adapters:
 ; $ ls -1 /sys/class/power_supply/
@@ -141,13 +141,11 @@ label-discharging = %percentage%%
 ; Default: 5
 poll-interval = 5
 
-
-[module/battery1]
+[module/battery2]
 type = custom/script
 format-prefix = "   "
 format-prefix-foreground = ${colors.foreground}
 exec = acpi -b | awk '{print $4 " " $5}'
-tail = true
 
 
 [module/pulseaudio]

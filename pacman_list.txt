@@ -44,11 +44,11 @@ make
 mosh
 nano
 neofetch
-nextcloud-client
 notepadqq
 ntfs-3g
 openresolv
 openssh
+pacman-contrib
 papirus-icon-theme
 patch
 pavucontrol
