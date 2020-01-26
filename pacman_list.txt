@@ -1,7 +1,6 @@
 acpi
 acpi_call
 amd-ucode
-arandr
 autoconf
 automake
 base
@@ -30,6 +29,7 @@ gimp
 git
 groff
 grub
+hplip
 htop
 inkscape
 libreoffice-fresh

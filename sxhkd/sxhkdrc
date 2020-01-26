@@ -114,6 +114,9 @@ XF86Audio{Raise,Lower}Volume
 XF86AudioMute
 	pactl set-sink-mute alsa_output.pci-0000_05_00.6.analog-stereo toggle && ~/dotfiles/scripts/volume.sh n
 
+XF86AudioMicMute
+	pactl set-source-mute alsa_input.pci-0000_05_00.6.analog-stereo toggle
+
 # Media player controls
 XF86Audio{Play,Pause,Next,Prev}
 	playerctl {play-pause,pause,next,previous}
