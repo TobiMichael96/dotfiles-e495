@@ -13,6 +13,7 @@ bluez-utils
 bspwm
 chromium
 cifs-utils
+cmake
 cups
 davfs2
 dhcpcd
@@ -75,6 +76,7 @@ thunderbird
 tlp
 ttf-roboto
 unrar
+unzip
 vlc
 vulkan-radeon
 which

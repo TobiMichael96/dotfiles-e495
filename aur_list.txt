@@ -9,3 +9,4 @@ steam-fonts
 ttf-font-awesome-4
 ttf-ms-fonts
 yay
+zoom
