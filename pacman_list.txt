@@ -41,6 +41,7 @@ linux-firmware
 linux-headers
 lxappearance
 m4
+maim
 make
 mosh
 nano
@@ -62,7 +63,6 @@ pulseaudio-bluetooth
 python-pywal
 rofi
 screenfetch
-scrot
 slock
 smartmontools
 speedtest-cli

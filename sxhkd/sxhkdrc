@@ -140,6 +140,10 @@ XF86ScreenSaver
 super + @Print
 	sh ~/dotfiles/scripts/screenshot-tool.sh f
 
+super + shift + @Print
+        sh ~/dotfiles/scripts/screenshot-tool.sh a
+
+
 # Show information
 super + i
 	~/dotfiles/scripts/polybar_toggle.sh t

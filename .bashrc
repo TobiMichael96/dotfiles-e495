@@ -33,6 +33,8 @@ alias dotfiles='sh ~/dotfiles/dotfiles.sh'
 alias homeserver='mosh 192.168.2.4'
 alias homenet='sh ~/dotfiles/scripts/wireguard.sh'
 
+alias mullvad='sh ~/dotfiles/scripts/mullvad.sh $1'
+
 alias raspi='ssh 192.168.2.77'
 
 alias stickm='sh ~/dotfiles/scripts/stickm.sh'
@@ -67,11 +69,3 @@ e() {
 
 # create folder and cd into
 mkd() { mkdir -p "$@" && cd "$@"; }
-
-
-mullvad() {
-old_service=$(systemctl | grep wg-quick@mullvad | awk '{print $1}')
-sudo systemctl stop $old_service
-new_service=wg-quick@mullvad-$1.service
-sudo systemctl start $new_service
-}
