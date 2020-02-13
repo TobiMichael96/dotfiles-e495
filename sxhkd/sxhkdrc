@@ -22,6 +22,11 @@ super + Escape
 super + p
 	~/dotfiles/scripts/power_menu.sh
 
+# lock the station
+super + l
+        ~/dotfiles/scripts/lock.sh
+
+
 #
 # bspwm hotkeys
 #

@@ -17,7 +17,6 @@ cmake
 cups
 davfs2
 dhcpcd
-docker
 dunst
 efibootmgr
 ethtool
@@ -26,13 +25,12 @@ feh
 firefox
 flex
 gcc
-gimp
 git
 groff
 grub
 hplip
 htop
-inkscape
+libevent
 libreoffice-fresh
 libtool
 light
@@ -77,6 +75,8 @@ tlp
 ttf-roboto
 unrar
 unzip
+virtualbox
+virtualbox-guest-iso
 vlc
 vulkan-radeon
 which
