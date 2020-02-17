@@ -1,6 +1,5 @@
 breeze-default-cursor-theme
 chromium-widevine
-gebaar
 kernel-modules-hook
 polybar-git
 pycharm-professional
@@ -9,4 +8,3 @@ steam-fonts
 ttf-font-awesome-4
 ttf-ms-fonts
 yay
-zoom

@@ -57,6 +57,7 @@ picom
 pkgconf
 playerctl
 pulseaudio
+pulseaudio-alsa
 pulseaudio-bluetooth
 python-pywal
 rofi
