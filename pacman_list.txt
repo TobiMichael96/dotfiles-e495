@@ -1,6 +1,8 @@
 acpi
 acpi_call
 amd-ucode
+android-tools
+arandr
 autoconf
 automake
 base

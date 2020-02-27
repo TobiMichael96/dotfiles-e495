@@ -30,6 +30,8 @@ alias pacman-clean='sudo pacman -Sc && sudo pacman -Rns $(pacman -Qtdq) && sudo 
 alias ace='acestream-launcher -p vlc'
 alias dotfiles='sh ~/dotfiles/dotfiles.sh'
 
+alias list_wifi='sh ~/dotfiles/scripts/get_wifis.sh'
+
 alias homeserver='mosh 192.168.2.4'
 alias homenet='sh ~/dotfiles/scripts/wireguard.sh'
 
