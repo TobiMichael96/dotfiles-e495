@@ -1,4 +1,5 @@
 android-studio
+android-udev-git
 breeze-default-cursor-theme
 chromium-widevine
 kernel-modules-hook
