@@ -12,7 +12,7 @@ super + Return
 
 # workspace switcher
 super + Tab
-	rofi -modi window -show window -display-window 'Workspace: '
+	rofi -theme window -modi window -show window -display-window 'Workspace: '
 
 # make sxhkd reload its configuration files:
 super + Escape

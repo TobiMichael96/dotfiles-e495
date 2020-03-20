@@ -1,8 +1,8 @@
 rofi.fullscreen: true
 
-
+rofi.font: Roboto Mono 22
 rofi.columns: 2
 rofi.drun-icon-theme: "Papirus"
 rofi.show-icons: true
 
-rofi.theme: ~/.config/rofi/own.rasi
+rofi.theme: ~/.config/rofi/alternative.rasi

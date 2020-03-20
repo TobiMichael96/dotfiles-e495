@@ -19,6 +19,8 @@ cmake
 cups
 davfs2
 dhcpcd
+docker-compose
+dosfstools
 dunst
 efibootmgr
 ethtool
