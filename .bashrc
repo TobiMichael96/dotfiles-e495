@@ -37,7 +37,9 @@ alias homenet='sh ~/dotfiles/scripts/wireguard.sh'
 
 alias mullvad='sh ~/dotfiles/scripts/mullvad.sh $1'
 
-alias raspi='ssh 192.168.2.77'
+alias raspim='ssh 192.168.2.77'
+alias raspiled='ssh 192.168.2.50'
+alias raspitemp='ssh 192.168.2.55'
 
 alias stickm='sh ~/dotfiles/scripts/stickm.sh'
 alias stickum='sh ~/dotfiles/scripts/stickum.sh'

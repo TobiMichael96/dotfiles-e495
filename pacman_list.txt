@@ -63,7 +63,9 @@ playerctl
 pulseaudio
 pulseaudio-alsa
 pulseaudio-bluetooth
+python-pip
 python-pywal
+reflector
 rofi
 screenfetch
 slock
@@ -136,5 +138,6 @@ xorg-xvinfo
 xorg-xwd
 xorg-xwininfo
 xorg-xwud
+xsecurelock
 xterm
 zip
