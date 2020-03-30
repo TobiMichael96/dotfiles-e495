@@ -68,7 +68,6 @@ python-pywal
 reflector
 rofi
 screenfetch
-slock
 smartmontools
 speedtest-cli
 steam
