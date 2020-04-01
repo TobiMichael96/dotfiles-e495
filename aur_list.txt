@@ -3,11 +3,13 @@ android-udev-git
 breeze-default-cursor-theme
 chromium-widevine
 kernel-modules-hook
+phpstorm
 polybar-git
 pycharm-professional
 spotify
 steam-fonts
 ttf-font-awesome-4
 ttf-ms-fonts
+webstorm
 yay
 zoom
