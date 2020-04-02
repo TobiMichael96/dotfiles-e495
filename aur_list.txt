@@ -2,6 +2,7 @@ android-studio
 android-udev-git
 breeze-default-cursor-theme
 chromium-widevine
+intellij-idea-ultimate-edition
 kernel-modules-hook
 phpstorm
 polybar-git

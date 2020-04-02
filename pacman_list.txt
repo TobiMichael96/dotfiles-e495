@@ -29,6 +29,7 @@ feh
 firefox
 flex
 gcc
+gimp
 git
 groff
 grub
