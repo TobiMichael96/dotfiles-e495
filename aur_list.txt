@@ -14,4 +14,3 @@ ttf-ms-fonts
 v4l2loopback-dkms
 webstorm
 yay
-zoom

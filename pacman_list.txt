@@ -51,6 +51,7 @@ nano
 neofetch
 notepadqq
 ntfs-3g
+obs-studio
 openresolv
 openssh
 pacman-contrib
@@ -64,6 +65,7 @@ playerctl
 pulseaudio
 pulseaudio-alsa
 pulseaudio-bluetooth
+pulseaudio-zeroconf
 python-pip
 python-pywal
 reflector
@@ -87,7 +89,6 @@ virtualbox-guest-iso
 vlc
 vulkan-radeon
 which
-wireguard-dkms
 wireguard-tools
 wmname
 wpa_supplicant
