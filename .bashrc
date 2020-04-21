@@ -37,6 +37,8 @@ alias homenet='sh ~/dotfiles/scripts/wireguard.sh'
 
 alias mullvad='sh ~/dotfiles/scripts/mullvad.sh $1'
 
+alias network_scan='python ~/dotfiles/scripts/network_scan.py $1'
+
 alias raspim='ssh 192.168.2.77'
 alias raspiled='ssh 192.168.2.50'
 alias raspitemp='ssh 192.168.2.55'
