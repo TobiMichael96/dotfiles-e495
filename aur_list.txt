@@ -11,6 +11,5 @@ spotify
 steam-fonts
 ttf-font-awesome-4
 ttf-ms-fonts
-v4l2loopback-dkms
 webstorm
 yay
