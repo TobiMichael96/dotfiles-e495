@@ -12,6 +12,9 @@ alias ace='acestream-launcher -p vlc'
 alias dotfiles='sh ~/dotfiles/dotfiles.sh'
 
 alias wifi_list='nmcli device wifi list'
+wif_connect() {
+
+}
 
 alias homeserver='mosh 192.168.2.4'
 alias homenet='sh ~/dotfiles/scripts/wireguard.sh'
