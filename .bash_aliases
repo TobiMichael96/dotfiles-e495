@@ -11,6 +11,8 @@ alias pacman-clean='sudo pacman -Sc && sudo pacman -Rns $(pacman -Qtdq) && sudo 
 alias ace='acestream-launcher -p vlc'
 alias dotfiles='sh ~/dotfiles/dotfiles.sh'
 
+alias cp='rsync -a --progress'
+
 alias wifi_list='nmcli device wifi list'
 wif_connect() {
   nmcli device wifi connect "$1" password "$2"
