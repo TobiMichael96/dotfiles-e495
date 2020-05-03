@@ -49,6 +49,8 @@ make
 mosh
 nano
 neofetch
+networkmanager
+nm-connection-editor
 notepadqq
 ntfs-3g
 obs-studio
