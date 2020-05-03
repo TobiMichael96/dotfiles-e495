@@ -13,7 +13,7 @@ alias dotfiles='sh ~/dotfiles/dotfiles.sh'
 
 alias wifi_list='nmcli device wifi list'
 wif_connect() {
-
+  nmcli device wifi connect "$1" password "$2"
 }
 
 alias homeserver='mosh 192.168.2.4'
