@@ -35,6 +35,7 @@ groff
 grub
 hplip
 htop
+jdk-openjdk
 libevent
 libreoffice-fresh
 libtool
@@ -46,6 +47,7 @@ lxappearance
 m4
 maim
 make
+maven
 mosh
 nano
 neofetch
