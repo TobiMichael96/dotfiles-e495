@@ -31,6 +31,7 @@ flex
 gcc
 gimp
 git
+go
 groff
 grub
 hplip
@@ -58,6 +59,7 @@ ntfs-3g
 obs-studio
 openresolv
 openssh
+os-prober
 pacman-contrib
 papirus-icon-theme
 patch
@@ -80,7 +82,6 @@ speedtest-cli
 steam
 sudo
 sxhkd
-systemd-swap
 teamspeak3
 texinfo
 thunderbird
