@@ -179,7 +179,7 @@ label-muted-foreground = ${colors.urgent}
 
 [module/wifi]
 type = internal/network
-interface = wlp4s0
+interface = wlan0
 format-connected =   <label-connected>
 label-connected = 
 #%essid%

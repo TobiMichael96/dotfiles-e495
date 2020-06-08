@@ -36,6 +36,7 @@ groff
 grub
 hplip
 htop
+iwd
 jdk-openjdk
 libevent
 libreoffice-fresh
@@ -52,8 +53,6 @@ maven
 mosh
 nano
 neofetch
-networkmanager
-nm-connection-editor
 notepadqq
 ntfs-3g
 obs-studio
@@ -96,7 +95,6 @@ vulkan-radeon
 which
 wireguard-tools
 wmname
-wpa_supplicant
 xclip
 xdo
 xdotool

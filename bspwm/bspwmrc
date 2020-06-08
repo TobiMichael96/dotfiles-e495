@@ -22,7 +22,6 @@ bspc config remove_unplugged_monitors true
 #sh ~/dotfiles/scripts/polybar_toggle.sh &
 sh ~/.config/polybar/launch.sh &
 sh ~/dotfiles/scripts/battery.sh &
-gebaard -b
 dunst &
 wmname LG3D
 picom --config ~/.config/picom/picom.conf &
