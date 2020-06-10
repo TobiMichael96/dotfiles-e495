@@ -19,6 +19,8 @@ if [ -d "$HOME/.local/bin" ] ; then
     PATH="$HOME/.local/bin:$PATH"
 fi
 
+export TERM=xterm-256color
+
 if [ -f ~/.bash_aliases ]; then
         . ~/.bash_aliases
 fi

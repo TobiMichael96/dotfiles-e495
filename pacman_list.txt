@@ -38,6 +38,8 @@ hplip
 htop
 iwd
 jdk-openjdk
+jdk8-openjdk
+jre8-openjdk
 libevent
 libreoffice-fresh
 libtool
