@@ -82,6 +82,7 @@ steam
 sudo
 sxhkd
 teamspeak3
+termite
 texinfo
 thunderbird
 tlp
@@ -143,5 +144,4 @@ xorg-xwd
 xorg-xwininfo
 xorg-xwud
 xsecurelock
-xterm
 zip
