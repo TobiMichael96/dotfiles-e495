@@ -11,7 +11,6 @@ case $class in
  ([Ff]irefox|Firefox-esr|Iceweasel) echo desktop=1;;
  (Gimp*) echo follow=on;;
  (Gitk) echo state=floating\ layer=normal;;
- (XTerm:xterm_keys_help) echo state=floating\ layer=normal;;
  (Pavucontrol) echo desktop=2;;
 
 

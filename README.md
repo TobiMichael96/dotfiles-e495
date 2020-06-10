@@ -2,6 +2,6 @@ E495 setup
 ------------------
 * Notification `dunst`
 * Font `Roboto Mono`
-* Terminal Emulator `xterm`
+* Terminal Emulator `termite`
 * Bar `polybar`
 * Window Manager `bspwm`
