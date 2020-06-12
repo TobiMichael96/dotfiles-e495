@@ -1,5 +1,6 @@
 acpi
 acpi_call
+acpid
 amd-ucode
 android-tools
 arandr
@@ -146,4 +147,5 @@ xorg-xwd
 xorg-xwininfo
 xorg-xwud
 xsecurelock
+xterm
 zip
