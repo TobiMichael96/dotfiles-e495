@@ -55,6 +55,9 @@ super + {space, shift + space}
 super + {_,shift + } {1-9,0}
 	bspc {desktop -f,node -d} {1-9,10}
 
+super + ctrl {_,shift + } + {1-9,0}
+	bspc {desktop -f,node -d} 1{1-9,0}
+
 # focus other node
 super + {Left,Right}
 	bspc node --focus {prev,next}.local

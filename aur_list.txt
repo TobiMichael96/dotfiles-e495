@@ -4,6 +4,7 @@ breeze-default-cursor-theme
 chromium-widevine
 intellij-idea-ultimate-edition
 kernel-modules-hook
+masterpdfeditor-free
 phpstorm
 polybar-git
 pycharm-professional
