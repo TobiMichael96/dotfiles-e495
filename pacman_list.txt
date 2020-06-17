@@ -17,6 +17,7 @@ bspwm
 chromium
 cifs-utils
 cmake
+code
 cups
 davfs2
 dhcpcd
