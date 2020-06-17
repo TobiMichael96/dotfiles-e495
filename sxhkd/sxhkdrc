@@ -12,7 +12,7 @@ super + Return
 
 # workspace switcher
 super + Tab
-	rofi -theme window -modi window -show window -display-window 'Workspace: '
+	rofi -theme ~/dotfiles/rofi/window -modi window -show window -display-window 'Workspace: '
 
 # make sxhkd reload its configuration files:
 super + Escape
@@ -88,10 +88,6 @@ super + r
 super + shift + {Left,Down,Up,Right}
 	bspc node -p {west,south,north,east}
 
-# preselect the ratio
-super + shift + {1-9}
-	bspc node -o 0.{1-9}
-
 # cancel the preselection for the focused node
 super + shift + Escape
 	bspc node -p cancel
@@ -103,10 +99,6 @@ super + shift + Escape
 # expand a window by moving one of its side outward
 super + alt + {h,j,k,l}
 	bspc node -z {left -20 0,bottom 0 20,top 0 -20,right 20 0}
-
-# contract a window by moving one of its side inward
-super + alt + shift + {h,j,k,l}
-	bspc node -z {right -20 0,top 0 20,bottom 0 -20,left 20 0}
 
 
 # check for other monitors
