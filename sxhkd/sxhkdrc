@@ -60,11 +60,11 @@ super + ctrl {_,shift + } + {1-9,0}
 
 # focus other node
 super + {Left,Right}
-	bspc node --focus {prev,next}.local
+	~/dotfiles/scripts/move_around.sh {prev,next}
 
 # go to next desktop
-super + {Up,Down}
-	bspc desktop -f {next,prev}.local
+#super + {Up,Down}
+#	bspc desktop -f {next,prev}.local
 
 # switch node with the biggest one 
 super + b  

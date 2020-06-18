@@ -13,4 +13,4 @@ steam-fonts
 ttf-font-awesome-4
 ttf-ms-fonts
 webstorm
-yay
+yay-bin
