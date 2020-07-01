@@ -14,3 +14,8 @@ foreground_alt=$color2
 highlight=$color4
 
 polybar main &
+
+connected_dp=$(cat /sys/class/drm/card0/card0-DP-2/status)
+if [ "$connected_dp" == "connected" ]; then
+    polybar second &
+fi
