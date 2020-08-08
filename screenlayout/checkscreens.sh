@@ -12,15 +12,15 @@ elif [ "$connected_dp" == "connected" ]; then
     sh ~/.screenlayout/withScreen.sh
     #sed -i 's/HandleLidSwitch=.*/HandleLidSwitch=ignored/' /etc/systemd/logind.conf
     #sed -i 's/HandleLidSwitchExternalPower=.*/HandleLidSwitchExternalPower=ignored/' /etc/systemd/logind.conf
+    sh ~/dotfiles/scripts/move_desktops.sh 8
     sh ~/.config/polybar/launch.sh
-    sh ~/dotfiles/scripts/move_desktops.sh
     setxkbmap de
     notify-send "Screen" "Second screen (DP) added..."
 else
     sh ~/.screenlayout/withoutTV.sh
     #sed -i 's/HandleLidSwitch=.*/HandleLidSwitch=suspend/' /etc/systemd/logind.conf
     #sed -i 's/HandleLidSwitchExternalPower=.*/HandleLidSwitchExternalPower=suspend/' /etc/systemd/logind.conf
-    bspc monitor eDP -d 1 2 3 4 5 6 7 8 9 10 11 12
+    sh ~/dotfiles/scripts/move_desktops.sh 12 eDP  
     notify-send "Screen" "Second screen removed..."
 fi
 

@@ -34,6 +34,7 @@ gcc
 gimp
 git
 go
+graphviz
 groff
 grub
 hplip
@@ -59,6 +60,7 @@ maven
 mosh
 nano
 neofetch
+nmap
 notepadqq
 ntfs-3g
 obs-studio
@@ -108,6 +110,7 @@ xdotool
 xf86-video-amdgpu
 xf86-video-vesa
 xorg-docs
+xorg-font-util
 xorg-fonts-100dpi
 xorg-fonts-75dpi
 xorg-iceauth
@@ -150,5 +153,4 @@ xorg-xwd
 xorg-xwininfo
 xorg-xwud
 xsecurelock
-xterm
 zip
